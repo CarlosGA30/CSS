@@ -1,0 +1,25 @@
+body{
+    background-color: #2d8652;
+}
+
+
+.amarillo{
+    color: #d49733;
+    font-weight: bolder;
+    
+    font-family: 'Courier New', Courier, monospace;
+    
+}
+.blanco{
+    font-style: oblique;
+    color: seashell;
+}
+.bajito{
+    color: #dec57f;
+    font-style:inherit;
+}
+.red{
+    color: #c3414f;
+    font-weight: bolder;
+    font-size:medium;
+}

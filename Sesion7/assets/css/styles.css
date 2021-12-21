@@ -1,0 +1,42 @@
+/*
+    CSS priorisa la especificidad
+    etiqueta
+    clase
+    id
+    estilo en linea
+*/
+
+/*selector de etiquetas -prioridad minima*/
+h1{
+    
+}
+body{
+    background-color: blanchedalmond;
+}
+h3{
+    color:#81e61c;
+}
+p{
+    color: chocolate;
+    background-color: #8cb2d1;
+
+}
+/*selector de clases -preoridad media*/
+.encabezado{
+    font-size: 30px;/*tamaño de fuente*/
+    color: violet;/*color de letra*/
+    background-color: #00ffff;/*colo de fondo*/
+    text-align:center; /*alinea el texto*/
+    text-transform: inherit;/*transforma el texto*/
+    font-style: italic;/*cambia el estilo del texto*/
+    
+}
+.texto{
+    color: white;
+    background-color: black;
+}
+/*Selector de id -preoridad alta*/
+#text{
+    color: blue;
+    background-color: red;
+}

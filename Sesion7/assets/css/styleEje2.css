@@ -1,0 +1,27 @@
+body{
+
+    background-color: #c6d9ee;
+}
+h1{
+    font-family: Comic Sans MS;
+    text-align: end;
+}
+p{
+    
+    font-size: small;
+    text-indent: 1cm;
+}
+.naranja{
+    color:#d07935;
+}
+.blanco{
+    color: #65b7a0;
+    background-color: white;
+}
+.rojo{
+    color: #fb0d0e;
+}
+.cita{
+    font-size: x-small;
+    text-align: center;
+}
