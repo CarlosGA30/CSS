@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/ejercicio1Style.css">
+    <title>Formulario tarjeta</title>
+</head>
+<body>
+    <form class="formulario">
+        Datos del comprador
+        <fieldset>
+            <div class="nombre">
+                <label for="nombre">Nombre</label>
+                <input id="nombre" type="text" name="nombre" placeholder="escriba el nombre" required/>
+            </div>
+            <div class="correo">
+                <label for="correo">Email</label>
+                <input type="email" name="correo" id="correo" placeholder="ejemplo@um.es" required/>
+            </div>
+            <div class="telefono">
+                <label for="telefono">Telefono</label>
+                <input type="tel" name="telefono" id="telefono" placeholder="Ej.+34668899999"/>
+            </div>
+            <div class="Pais">
+                <label for="pais">pais</label>
+                <input type="text" name="pais" id="pais" />
+            </div>
+        </fieldset>
+        Datos de targeta de credito o debito
+    <fieldset>
+        <div class="numero">
+            <label for="numero">Numero</label>
+            <input type="number" name="numero" id="numero" />
+        </div> 
+        <div class="nombre_tajeta">
+            <label for="nombre_tajeta">Nombre</label>
+            <input id="nombre_tajeta" type="text" name="nombre_tajeta" placeholder="Nombre que figura en la targeta" required/>
+        </div>
+    </fieldset>
+    <hr>
+        <div class="enviar">
+            <input class="enviar" type="submit" value="Confirmar pedido">
+        </div>
+    </form>
+</body>
+</html>

@@ -1,0 +1,10 @@
+.formulario{
+    border: 5px solid yellowgreen ;
+    border-radius: 3px;
+}
+.nombre{
+    border: 3px solid #18e0e0;
+}
+#password{
+    border: 2px dotted #aa16a2;
+}
