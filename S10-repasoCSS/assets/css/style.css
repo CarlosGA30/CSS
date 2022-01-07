@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Moo+Lah+Lah&display=swap');
+body{
+    margin: 0;
+    padding: 0;
+}
+p{
+    font-family: 'Twinkle Star', cursive;
+    font-size: xx-small;
+}
+div{
+    font-family: 'Moo Lah Lah', cursive;
+}
+.menu .elemento:hover{
+    padding: 5px;
+    
+}
+.menu{
+    background-color: salmon;
+    height: 50px;
+    text-align: center;
+    margin: 0;
+    
+}
+.menu ul{
+    margin: 0 auto;
+}
+.elemento{
+    display: inline-block;
+    /*margin: superior derecha inferior izquierda*/
+    margin: 0 20px;
+}
+.elemento a{
+   font-size: 30px;
+   color: white;
+   text-decoration: none;
+   line-height: 50px;
+   font-family: 'The Nautigal', cursive;
+}
+.elemento a:hover{
+    color: yellowgreen;
+    font-size: 40px;
+}
+.menu .elemento:hover{
+    background-color: white;
+
+}
+
+
+/**/

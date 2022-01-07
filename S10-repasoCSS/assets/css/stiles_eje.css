@@ -1,0 +1,34 @@
+body{
+    background-color: #d3d3d3;
+}
+header{
+    text-align: center;
+}
+.datos{
+    background-color: turquoise;
+    margin:0 auto;
+    width: 80%;
+
+}
+.datos .titulo_datos{
+    color: white;
+}
+
+.titulo_datos{
+    background-color: #808080;
+    color: white;
+    text-indent: 10px;
+}
+.cuerpo{
+    width: 80%;
+    text-align: center;
+    margin: 0 auto;
+}
+.cuerpo img{
+    width: 128px;
+    display: inline-block;
+}
+.texto_datos{
+    width: 70%;
+    display: inline-block;
+}
